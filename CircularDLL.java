@@ -1,3 +1,6 @@
+/**
+@author Arzun Giri
+*/
 import java.util.Scanner;
 public class CircularDLL {
     public Node head;
@@ -161,6 +164,9 @@ public class CircularDLL {
         // System.out.println("Displaying in Backward Direction: ");
         // list.displayBackward();
         Scanner in = new Scanner(System.in);
+        
+        //This code is for deleting item in list, to insert call the insert methods inplace of delete.
+        
         System.out.println("Enter your choice: ");
         System.out.println("1: Delete element at first.");
         System.out.println("2: Delete element at last.");
