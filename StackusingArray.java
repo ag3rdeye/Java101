@@ -57,6 +57,10 @@ public class StackusingArray {
         }
     
     }
+  // To avoid using hard coded values, this program takes limit of the stack which 
+  // can be provided while running the code, as
+  // javac StackusingArray.java
+  // java StackusingArray <limit>
     public static void main(String[] args) {
          int limit= Integer.parseInt(args[0]);
         StackusingArray sta = new StackusingArray(limit);
