@@ -1,4 +1,6 @@
-
+/**
+@author Arzun Giri
+*/
 import java.util.Scanner;
 public class LinkedList {
     static Node head;
