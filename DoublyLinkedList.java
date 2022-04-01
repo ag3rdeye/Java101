@@ -1,3 +1,6 @@
+/**
+@author Arzun Giri
+*/
 import java.util.Scanner;
 
 public class DoublyLinkedList{
