@@ -1,6 +1,8 @@
 /** 
     @author Arzun Giri
+    
  */
+// Stack implementation using Linked List in java
 import java.util.Scanner;
 public class StackusingLL {
    private Node top;
@@ -43,15 +45,9 @@ public class StackusingLL {
        }
     }
     public boolean isEmpty(){
-        if(size==0){
-            return true;
-        }
-        else{
-            return false;
-        }
-
-      // return (size==0)? true: false;
+        return size==0;
     }
+    
     public static void main(String[] args) {
         StackusingLL st = new StackusingLL();
         Scanner in = new Scanner(System.in);
