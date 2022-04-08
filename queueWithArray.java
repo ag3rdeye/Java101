@@ -54,6 +54,8 @@ public class queueWithArray {
             System.out.print(" --> \n ");
             }
     }
+ // All the methods are same in head vary and head fixed except dequeue.
+ // dequeueFixedQueue() is dequeue method of head fixed queue.
     public void dequeueFixedQueue(){
         if(isEmpty()){
             System.out.println("Error: Queue is Empty.");
