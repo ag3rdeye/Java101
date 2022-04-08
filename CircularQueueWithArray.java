@@ -65,9 +65,6 @@ public class CircularQueueWithArray {
         CircularQueueWithArray cq= new CircularQueueWithArray(3);
         Scanner in = new Scanner(System.in);
         int choice;
-        cq.enqueue(22);
-        cq.enqueue(56);
-        cq.enqueue(88);
         System.out.println("1: To Enqueue");
         System.out.println("2: To Dequeue");
         System.out.println("3: To Display");
