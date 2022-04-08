@@ -11,7 +11,7 @@ public class TowerofHanoi {
     }
     public static void main(String[] args) {
         TowerofHanoi toh = new TowerofHanoi();
-        toh.TOH('a', 'b', 'c', 4);
+        toh.TOH('a', 'b', 'c', 4); // Any numbers of plates can be inserted at n
     }
     
 }
