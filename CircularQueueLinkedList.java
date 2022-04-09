@@ -31,7 +31,6 @@ public class CircularQueueLinkedList {
             System.out.println("Error: Queue is Empty.");
         }
         else{
-            if(front!=null){
                 Node temp = front;
                 System.out.println("Dequeued item: "+temp.data);
                 temp = null;
@@ -41,10 +40,6 @@ public class CircularQueueLinkedList {
                     front = null;
                     rear = null;
                 }
-            }
-            else{
-                System.out.println("All item are dequeued");
-            }
         }
     }
     public void display(){
