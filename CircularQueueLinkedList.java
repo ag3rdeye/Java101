@@ -46,7 +46,7 @@ public class CircularQueueLinkedList {
         Node temp = front;
         do{
             if(temp!=null){
-                System.out.println(temp.data);
+                System.out.print(temp.data +" <- ");
                 temp = temp.next;
             }
         }while(temp!=front);
