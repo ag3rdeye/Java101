@@ -152,22 +152,8 @@ public class CircularDLL {
 }
     public static void main(String[] args) {
         CircularDLL list = new CircularDLL();
-        list.insertAtBeg(12);
-        list.insertAtBeg(23);
-        list.insertAtEnd(33);
-        list.insertAtBeg(31);
-        list.insertAtEnd(49);
-        list.insertAtPos(3,11);
-        list.insertAtPos(6, 79);
-        // System.out.println("Displaying in Forward Direction:");
-        list.displayForward();
-        // System.out.println("Displaying in Backward Direction: ");
-        // list.displayBackward();
         Scanner in = new Scanner(System.in);
-        
-        //This code is for deleting item in list, to insert call the insert methods inplace of delete.
-        
-        System.out.println("Enter your choice: ");
+         System.out.println("Enter your choice: ");
         System.out.println("1: Delete element at first.");
         System.out.println("2: Delete element at last.");
         System.out.println("3: Delete element at position.");
